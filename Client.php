@@ -1,7 +1,7 @@
 <?php
 
 
-namespace testing\client;
+namespace testing;
 
 class Client
 {

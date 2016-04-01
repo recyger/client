@@ -20,7 +20,7 @@
     }
   ],
   "autoload"         : {
-    "psr-4": {"testing\\client": ""}
+    "psr-4": {"testing\\": ""}
   },
   "require"          : {
     "testing/lib"   : "dev-master",
