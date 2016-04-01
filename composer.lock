@@ -4,24 +4,25 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "804c66c9b2eecb813e11205dd7ed279e",
-    "content-hash": "5a2f022e88b4041b90b4a713170acd87",
+    "hash": "0521f4fd139b7847eae3a37e15e04c0a",
+    "content-hash": "390f43470b9eefbbc498532af393c860",
     "packages": [
         {
-            "name": "recyger/lib",
+            "name": "testing/common",
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/recyger/lib.git",
-                "reference": "5187954310b262826f0b71e7d76a510fa309437d"
+                "url": "git@github.com:recyger/common.git",
+                "reference": "d36f430e9f52ab7ff51fd4ee7c1275fa9f19b5a4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/recyger/lib/zipball/5187954310b262826f0b71e7d76a510fa309437d",
-                "reference": "5187954310b262826f0b71e7d76a510fa309437d",
+                "url": "https://api.github.com/repos/recyger/common/zipball/d36f430e9f52ab7ff51fd4ee7c1275fa9f19b5a4",
+                "reference": "d36f430e9f52ab7ff51fd4ee7c1275fa9f19b5a4",
                 "shasum": ""
             },
-            "type": "test-lib",
+            "type": "test-common",
+            "notification-url": "http://packagist.itass.local/downloads/",
             "license": [
                 "proprietary"
             ],
@@ -32,18 +33,43 @@
                 }
             ],
             "description": "description_text",
-            "support": {
-                "source": "https://github.com/recyger/lib/tree/master",
-                "issues": "https://github.com/recyger/lib/issues"
+            "time": "2016-04-01 11:06:51"
+        },
+        {
+            "name": "testing/lib",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:recyger/lib.git",
+                "reference": "274eda14c69a8447bea87abe4cdd615d93ef4b3b"
             },
-            "time": "2016-04-01 05:47:58"
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/recyger/lib/zipball/274eda14c69a8447bea87abe4cdd615d93ef4b3b",
+                "reference": "274eda14c69a8447bea87abe4cdd615d93ef4b3b",
+                "shasum": ""
+            },
+            "type": "test-lib",
+            "notification-url": "http://packagist.itass.local/downloads/",
+            "license": [
+                "proprietary"
+            ],
+            "authors": [
+                {
+                    "name": "author's name",
+                    "email": "email@example.com"
+                }
+            ],
+            "description": "description_text",
+            "time": "2016-04-01 11:06:18"
         }
     ],
     "packages-dev": [],
     "aliases": [],
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "stability-flags": {
-        "recyger/lib": 20
+        "testing/lib": 20,
+        "testing/common": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
