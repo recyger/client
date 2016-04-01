@@ -19,6 +19,9 @@
       "url" : "http://packagist.itass.local/"
     }
   ],
+  "autoload"         : {
+    "psr-4": {"testing": ""}
+  },
   "require": {
     "testing/lib": "dev-master",
     "testing/common": "dev-master"
