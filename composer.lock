@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "0521f4fd139b7847eae3a37e15e04c0a",
+    "hash": "8c7295e5a10a42c3bba56bb2c1d06e54",
     "content-hash": "390f43470b9eefbbc498532af393c860",
     "packages": [
         {
@@ -52,16 +52,17 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/recyger/common.git",
-                "reference": "3df696dcc0a8830bf8e85ab74cc22ffcec00b433"
+                "reference": "ece076b8e32f8cbec62c540039fd9725f4bf8c30"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/recyger/common/zipball/3df696dcc0a8830bf8e85ab74cc22ffcec00b433",
-                "reference": "3df696dcc0a8830bf8e85ab74cc22ffcec00b433",
+                "url": "https://api.github.com/repos/recyger/common/zipball/ece076b8e32f8cbec62c540039fd9725f4bf8c30",
+                "reference": "ece076b8e32f8cbec62c540039fd9725f4bf8c30",
                 "shasum": ""
             },
             "require": {
                 "testing/cinstaller": "dev-master",
+                "testing/client": "dev-master",
                 "testing/lib": "dev-master"
             },
             "type": "test-common",
@@ -76,7 +77,7 @@
                 }
             ],
             "description": "description_text",
-            "time": "2016-04-01 12:58:17"
+            "time": "2016-04-01 14:42:04"
         },
         {
             "name": "testing/lib",
