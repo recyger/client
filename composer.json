@@ -1,7 +1,7 @@
 {
   "name"             : "testing/client",
   "description"      : "description_text",
-  "minimum-stability": "stable",
+  "minimum-stability": "dev",
   "license"          : "proprietary",
   "type"             : "test-common-base",
   "version"          : "0.1.1",
@@ -16,8 +16,5 @@
       "type" : "composer",
       "url" : "http://packagist.itass.local/"
     }
-  ],
-  "require"          : {
-    "testing/common": "dev-master"
-  }
+  ]
 }
