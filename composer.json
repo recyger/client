@@ -11,18 +11,13 @@
       "email": "email@example.com"
     }
   ],
-  "repositories"     : [
+  "repositories" : [
     {
-      "url" : "git@github.com:recyger/common.git",
-      "type": "vcs"
-    },
-    {
-    "url" : "git@github.com:recyger/lib.git",
-    "type": "vcs"
+      "type" : "composer",
+      "url" : "http://packagist.itass.local/"
     }
   ],
   "require"          : {
-    "recyger/common": "dev-master",
-    "recyger/lib": "dev-master"
+    "recyger/common": "dev-master"
   }
 }
