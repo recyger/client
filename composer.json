@@ -4,7 +4,6 @@
   "minimum-stability": "dev",
   "license"          : "proprietary",
   "type"             : "test-common-base",
-  "version"          : "0.1.1",
   "authors"          : [
     {
       "name" : "author's name",
