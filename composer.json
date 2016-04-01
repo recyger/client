@@ -1,5 +1,5 @@
 {
-  "name"             : "testing/client",
+  "name"             : "recyger/client",
   "description"      : "description_text",
   "minimum-stability": "stable",
   "license"          : "proprietary",
@@ -10,5 +10,19 @@
       "name" : "author's name",
       "email": "email@example.com"
     }
-  ]
+  ],
+  "repositories"     : [
+    {
+      "url" : "git@github.com:recyger/common.git",
+      "type": "vcs"
+    },
+    {
+    "url" : "git@github.com:recyger/lib.git",
+    "type": "vcs"
+    }
+  ],
+  "require"          : {
+    "recyger/common": "dev-master",
+    "recyger/lib": "dev-master"
+  }
 }
