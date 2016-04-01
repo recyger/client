@@ -1,5 +1,5 @@
 {
-  "name"             : "recyger/client",
+  "name"             : "testing/client",
   "description"      : "description_text",
   "minimum-stability": "stable",
   "license"          : "proprietary",
@@ -18,6 +18,6 @@
     }
   ],
   "require"          : {
-    "recyger/common": "dev-master"
+    "testing/common": "dev-master"
   }
 }

@@ -4,43 +4,9 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "de9701947c3a594666a549aa813a1d35",
-    "content-hash": "ea2b8d913f9d734125c63e0338ea8075",
+    "hash": "804c66c9b2eecb813e11205dd7ed279e",
+    "content-hash": "5a2f022e88b4041b90b4a713170acd87",
     "packages": [
-        {
-            "name": "recyger/common",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/recyger/common.git",
-                "reference": "49adb91d19edbf6b82c930ebc4f189f2666f3daf"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/recyger/common/zipball/49adb91d19edbf6b82c930ebc4f189f2666f3daf",
-                "reference": "49adb91d19edbf6b82c930ebc4f189f2666f3daf",
-                "shasum": ""
-            },
-            "require": {
-                "recyger/lib": "dev-master"
-            },
-            "type": "test-common",
-            "license": [
-                "proprietary"
-            ],
-            "authors": [
-                {
-                    "name": "author's name",
-                    "email": "email@example.com"
-                }
-            ],
-            "description": "description_text",
-            "support": {
-                "source": "https://github.com/recyger/common/tree/master",
-                "issues": "https://github.com/recyger/common/issues"
-            },
-            "time": "2016-04-01 06:01:05"
-        },
         {
             "name": "recyger/lib",
             "version": "dev-master",
@@ -77,7 +43,6 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "recyger/common": 20,
         "recyger/lib": 20
     },
     "prefer-stable": false,
