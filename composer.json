@@ -1,0 +1,13 @@
+{
+  "name"             : "testing/client",
+  "description"      : "description_text",
+  "minimum-stability": "stable",
+  "license"          : "proprietary",
+  "type"             : "test-common-base",
+  "authors"          : [
+    {
+      "name" : "author's name",
+      "email": "email@example.com"
+    }
+  ]
+}
