@@ -18,6 +18,6 @@
     }
   ],
   "require"          : {
-    "recyger/common": "dev-master"
+    "recyger/common": "0.0.1"
   }
 }
